@@ -9,7 +9,7 @@ public class java22_03_01 {
 			System.out.println();
 		}
 		
-		//¶Ç´Â
+		//ë˜ëŠ”
 		System.out.println("*");
 		System.out.println("**");
 		System.out.println("***");
