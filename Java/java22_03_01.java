@@ -2,18 +2,20 @@
 public class java22_03_01 {
 
 	public static void main(String[] args) {
-		for(int i=0;i<4;i++) {
-			for(int j=0;j<i;j++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
+		//»ê¼ú ¿¬»êÀÚ
+		// +(´õÇÏ±â) -(»©±â) *(°öÇÏ±â) /(³ª´©±â-¸ò)
+		// %(³ª´©±â-³ª¸ÓÁö) ++(Áõ°¡ ¿¬»êÀÚ) --(°¨¼Ò ¿¬»êÀÚ)
+		int number1=10;
+		int number2=10;
+		System.out.println("´õÇÏ±â : "+(number1+number2)); //´õÇÏ±â 20
+		System.out.println("»©±â : "+(number1-number2)); //»©±â 0
+		System.out.println("¸ò : "+(number1/number2)); //¸ò 1
+		System.out.println("³ª¸ÓÁö : "+(number1%number2)); //³ª¸ÓÁö 0
 		
-		//ë˜ëŠ”
-		System.out.println("*");
-		System.out.println("**");
-		System.out.println("***");
-	    
+		number1++;
+		number2--;
+		System.out.println("1Áõ°¡ : "+number1);
+		System.out.println("1°¨¼Ò : "+number2);
 	}
 
 }
