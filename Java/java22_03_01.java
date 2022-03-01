@@ -2,7 +2,17 @@
 public class java22_03_01 {
 
 	public static void main(String[] args) {
-		System.out.println("안녕하세요");
+		for(int i=0;i<4;i++) {
+			for(int j=0;j<i;j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		//�Ǵ�
+		System.out.println("*");
+		System.out.println("**");
+		System.out.println("***");
 	    
 	}
 
